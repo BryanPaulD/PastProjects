@@ -1,0 +1,190 @@
+body
+{
+	text-align: center;
+	font-size: 25px;
+	background-color: #666666;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 60px;
+	font-family: "arial narrow", arial, sans-serif;
+	color: #7bffb7;
+}
+
+table
+{
+	/*display: none;*/
+	margin-left: auto;
+	margin-right: auto; 
+/*	border: 7px solid purple;
+	border-spacing: 0px;
+	position: absolute;
+	top: 600px;*/
+}
+tbody
+{
+	border-bottom: 0px;
+	border-top: 7px solid purple;
+	border-left: 7px solid purple;
+	border-right: 7px solid purple;
+}
+.CRowDiv
+{
+	width: 457px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: bottom;
+	border-left: 7px solid purple;
+	border-right: 7px solid purple;
+}
+#bottomRowStyle
+{
+	
+}
+#bottomRow
+{
+	border-bottom: 7px solid purple;
+	padding-top: 0px;
+	height: 55px;
+}
+/*tr
+{
+	border-top: solid purple;
+}
+
+td
+{
+	border-top: solid purple;
+}
+*/
+.purpleBorder
+{
+	border-top: solid purple;
+	
+}
+
+#inputRow
+{
+	width: 450px;
+}
+#textbox
+{
+/*	display: block;*/
+}
+#chev
+{
+	float: left;
+	color: purple;
+}
+.hide
+{
+	display: none;
+}
+
+.newRow 
+{
+	font-family: 'courier new', courier, monospace;
+	color: purple;
+}
+.line
+{
+	text-decoration: line-through;
+	color: gray;
+}
+#x
+{
+	float: right;
+	/*color: #7bffb7;*/
+}
+#itemsLeft
+{
+	/*text-align: left;*/
+	font-family: impact;
+	font-size: 26px;
+	color: #004997;
+	float: left;
+	margin-bottom: 0px;
+	vertical-align: bottom;
+}
+#itemNumber
+{
+	font-family: impact;
+	color: #004997;
+/*	margin-top: 20px;*/
+	margin-right: 100px;
+	vertical-align: bottom;
+}
+
+#controlRowCell2
+{
+	height: 60px;
+	width: 100px;
+	font-family: impact;
+	vertical-align: bottom;
+}
+
+
+#show
+{
+	vertical-align: top;
+	text-align: center;
+	color: #004997;
+	margin-right: 60px;
+	/*margin-top: 10px;*/
+}
+#controlRowCell3
+{
+	/*width: 100px;*/
+	/*font-family: impact;*/
+}
+
+.hiddenBorder
+{
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+#button1
+{
+	height: 90px;
+	float: right;
+	padding-top: 0px;
+	border-top: 0px;
+}
+#button2
+{
+	height: 45px;
+}
+#button3
+{
+	height: 45px;
+}
+#button4
+{
+	height: 45px;
+}
+
+form textarea,
+form input
+{
+	height: 35px;
+/*	width: 400px;*/
+}
+
+#done
+{
+	float: left;
+	height: 25px;
+	width: 25px;
+}
+
+.todoItem
+{
+	float: left;
+}
+
+/* syntax: tag, #id, .class*/

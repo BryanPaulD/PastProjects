@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href="todo.css" rel="stylesheet"/>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <title>
+        todos
+      </title>
+    </head>
+    <body onload = "onLoad()">
+        <h1>todos</h1>
+            <div id="formTodo">
+                <table id="table">
+                    <tbody id="tbody">
+                        <tr id="firstRow">
+                            <td id="inputRow" colspan="3">
+                              <input id="textbox" name="newItem" type="text" placeholder="What needs to be done?"></input>  
+                              <!-- <button type="hidden" id="submit" value="Search" onclick="submit();"/>-->
+                              <span id="chev" class="glyphicon glyphicon-chevron-down hide" aria-hidden="true"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        <script src="todo.js"></script>
+    </body>
+</html>
